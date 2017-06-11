@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kmadill/requestheaderparser-fcc-km#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "express-useragent": "^1.0.7"
   }
 }
