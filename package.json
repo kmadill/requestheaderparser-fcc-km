@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kmadill/requestheaderparser-fcc-km/issues"
   },
-  "homepage": "https://github.com/kmadill/requestheaderparser-fcc-km#readme"
+  "homepage": "https://github.com/kmadill/requestheaderparser-fcc-km#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
