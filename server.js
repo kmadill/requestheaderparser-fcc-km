@@ -10,8 +10,9 @@ app.get("/", function(req, res) {
   res.setHeader('Content-Type', 'application/json');
   res.send(JSON.stringify({
     "ipaddress": req.connection.remoteAddress,
+    "ipaddress2": req.headers["x-forwarded-for"],
     "language": req.headers['accept-language'].split(',')[0],
-    "software": req.useragent.os
+    "os": req.headers["user-agent"].split(/[()]/)[1]
   }));
 });
 
