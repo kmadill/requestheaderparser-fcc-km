@@ -1,0 +1,19 @@
+{
+  "name": "requestheaderparser",
+  "version": "1.0.0",
+  "description": "This simple API was created as part of Free Code Camp's curriculum.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmadill/requestheaderparser-fcc-km.git"
+  },
+  "author": "Kevin Madill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmadill/requestheaderparser-fcc-km/issues"
+  },
+  "homepage": "https://github.com/kmadill/requestheaderparser-fcc-km#readme"
+}
